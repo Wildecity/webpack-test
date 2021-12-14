@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Readex+Pro:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#restaurantName {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+#home:hover, 
+#products:hover, 
+#aboutUS:hover {
+    color: #FE5D26;
+}
+
+main {
+    background-color: #FAEDCA;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FE5D26;
+    color: white;
+    padding: 15px;
+    font-size: 26px;
+}
