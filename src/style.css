@@ -7,6 +7,10 @@
 }
 
 header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,6 +43,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-bottom: 70px;
 }
 
 .home {
@@ -91,6 +96,10 @@ footer {
   padding: 25px 0 25px 0;
 }
 
-.addGap {
-  gap: 30px;
+/* About US Page */
+
+.wrapper {
+  width: 70%;
+  height: 100%;
+  padding: 20px 0 20px 0;
 }

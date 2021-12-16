@@ -1,5 +1,6 @@
 import { createHome } from "./home.js";
 import { createProducts } from "./products.js";
+import { createAboutUs } from "./about.js";
 import { emptyMain } from "./emptyMain.js";
 
 export function generateEvents() {
@@ -14,5 +15,9 @@ export function generateEvents() {
   products.addEventListener("click", () => {
     emptyMain();
     createProducts();
+  });
+  aboutUS.addEventListener("click", () => {
+    emptyMain();
+    createAboutUs();
   });
 }

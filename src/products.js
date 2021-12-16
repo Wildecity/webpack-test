@@ -3,7 +3,7 @@ import pizza2 from "./p2.jpg";
 import pizza3 from "./p3.jpg";
 
 export function createProducts() {
-  let container = document.querySelector("#container");
+  // let container = document.querySelector("#container");
   let sources = [pizza1, pizza2, pizza3];
   let prodName = ["Pineaple Pizza", "Peperoni Pizza", "Neapolition Pizza"];
   let images = [];
@@ -23,5 +23,4 @@ export function createProducts() {
   images.forEach((image) => {
     container.appendChild(image);
   });
-  container.classList.add("addGap");
 }
