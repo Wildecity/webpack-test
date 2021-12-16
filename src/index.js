@@ -1,8 +1,10 @@
-import { myFunction } from "./about.js";
-import { createHome } from "./home.js";
-import { createProducts } from "./products.js";
-
-myFunction();
+// import { myFunction } from "./about.js";
+// import { createHome } from "./home.js";
+// import { createProducts } from "./products.js";
+import { generateEvents } from "./eventListener";
+// myFunction();
 
 // createHome();
-createProducts();
+// createProducts();
+
+generateEvents();
