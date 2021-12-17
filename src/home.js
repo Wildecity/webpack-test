@@ -2,8 +2,6 @@ import { createText } from "./createText";
 import myImage from "./pizza-chef.jpg";
 
 export function createHome() {
-  //ya está declarado el container en el index.js, se pueden eliminar las referencias a main y usar la otra variable(container)
-  const main = document.getElementById("container");
   const home = document.createElement("div");
   home.classList.add("home");
 
@@ -14,6 +12,7 @@ export function createHome() {
   home.appendChild(pizzaChef);
   home.appendChild(createText("Don't miss out on us, we're pretty cool"));
   home.appendChild(createText("(unlike our pizzas)"));
+  home.appendChild(createText("+54 9 341-549-4538"));
 
-  main.appendChild(home);
+  container.appendChild(home);
 }
