@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Readex+Pro:wght@400;600;700&display=swap");
 
+
+/* #E12E2A RED*/
+/* #FAFAFA WHITE*/
+/* #2F9400 GREEN*/
+/* #FDF3C2 YELLOW */ 
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +16,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
+  color: #E12E2A;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -33,7 +40,7 @@ ul {
 #home:hover,
 #products:hover,
 #aboutUS:hover {
-  color: #fe5d26;
+  color: #E12E2A;
 }
 
 main {
@@ -66,8 +73,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #fe5d26;
-  color: white;
+  background-color: #FDF3C2;
   padding: 15px;
   font-size: 26px;
 }
@@ -95,6 +101,10 @@ footer {
 .productTitle {
   text-align: center;
   padding: 25px 0 25px 0;
+}
+
+img {
+  border-radius: 50px;
 }
 
 /* About US Page */

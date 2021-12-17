@@ -14,6 +14,7 @@ A restaurant page that we made as a practise for The Odin Project's curriculum
 ## What we learned
     *  JavaScript
       -  How to use ES6 Modules
+      -  Add maps without the use of APIs
     *  Webpack
       -  How to install dependencies
       -  How to create diferent files and merge them together to change from development mode to production mode
