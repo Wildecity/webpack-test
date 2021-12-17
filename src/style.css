@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&family=Readex+Pro:wght@400;600;700&display=swap");
 
-
 /* #E12E2A RED*/
 /* #FAFAFA WHITE*/
 /* #2F9400 GREEN*/
-/* #FDF3C2 YELLOW */ 
+/* #FDF3C2 YELLOW */
 
 * {
   margin: 0;
@@ -15,8 +14,8 @@
 header {
   position: sticky;
   top: 0;
-  background-color: white;
-  color: #E12E2A;
+  background-color: #fdf3c2;
+  color: #000000;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -40,11 +39,11 @@ ul {
 #home:hover,
 #products:hover,
 #aboutUS:hover {
-  color: #E12E2A;
+  color: #e12e2a;
 }
 
 main {
-  background-color: #faedca;
+  background-color: whitesmoke;
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
@@ -73,9 +72,15 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #FDF3C2;
+  background-color: #fdf3c2;
   padding: 15px;
   font-size: 26px;
+}
+
+footer a:active,
+footer a:visited {
+  color: black;
+  background-color: transparent;
 }
 
 /* PRODUCTS PAGE  */
@@ -85,10 +90,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.imgContainer:last-child {
-  margin-bottom: 87px;
 }
 
 .productImg {
@@ -110,7 +111,7 @@ img {
 /* About US Page */
 
 .wrapper {
-  width: 70%;
+  width: 600px;
   padding: 20px 0 20px 0;
   display: flex;
   justify-content: center;
