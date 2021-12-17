@@ -7,6 +7,10 @@
 }
 
 header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,6 +43,8 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-bottom: 70px;
+  height: 100%;
 }
 
 .home {
@@ -73,7 +79,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid black;
 }
 
 .imgContainer:last-child {
@@ -92,6 +97,14 @@ footer {
   padding: 25px 0 25px 0;
 }
 
-.addGap {
-  gap: 30px;
+/* About US Page */
+
+.wrapper {
+  width: 70%;
+  padding: 20px 0 20px 0;
+}
+
+.gmap_canvas {
+  width: 100%;
+  margin: 20px auto;
 }

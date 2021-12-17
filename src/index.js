@@ -1,8 +1,6 @@
-import { myFunction } from "./about.js";
 import { createHome } from "./home.js";
-import { createProducts } from "./products.js";
+import { generateEvents } from "./eventListener";
+let container = document.querySelector("#container");
 
-myFunction();
-
-// createHome();
-createProducts();
+createHome();
+generateEvents();
