@@ -112,6 +112,10 @@ img {
 .wrapper {
   width: 70%;
   padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .gmap_canvas {

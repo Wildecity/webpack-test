@@ -12,6 +12,7 @@ export function createHome() {
   home.appendChild(pizzaChef);
   home.appendChild(createText("Don't miss out on us, we're pretty cool"));
   home.appendChild(createText("(unlike our pizzas)"));
+  home.appendChild(createText("+54 9 341-549-4538"));
 
   container.appendChild(home);
 }
