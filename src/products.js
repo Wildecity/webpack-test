@@ -3,7 +3,6 @@ import pizza2 from "./p2.jpg";
 import pizza3 from "./p3.jpg";
 
 export function createProducts() {
-  // let container = document.querySelector("#container");
   let sources = [pizza1, pizza2, pizza3];
   let prodName = ["Pineapple Pizza", "Peperoni Pizza", "Neapolitan Pizza"];
   let images = [];
