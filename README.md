@@ -1,6 +1,7 @@
 # Restaurant Page
 
 ## Live Preview
+https://guidorial.github.io/restaurant-page/
 
 ## General Info
 A restaurant page made by GuidoRial and Wildecity as a practise for The Odin Project's curriculum
