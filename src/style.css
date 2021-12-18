@@ -9,12 +9,12 @@
   margin: 0;
   padding: 0;
   font-family: "Lato";
+  background-color: whitesmoke;
 }
 
 header {
   position: sticky;
   top: 0;
-  background-color: #fdf3c2;
   color: #000000;
   overflow: hidden;
   display: flex;
@@ -36,6 +36,12 @@ ul {
   cursor: pointer;
 }
 
+#home,
+#products,
+#aboutUS {
+  color: black;
+}
+
 #home:hover,
 #products:hover,
 #aboutUS:hover {
@@ -43,13 +49,12 @@ ul {
 }
 
 main {
-  background-color: whitesmoke;
+
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 70px;
   height: 100%;
 }
 
@@ -80,7 +85,7 @@ footer {
 footer a:active,
 footer a:visited {
   color: black;
-  background-color: transparent;
+  background-color: #fdf3c2;
 }
 
 /* PRODUCTS PAGE  */
