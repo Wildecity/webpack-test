@@ -1,9 +1,10 @@
 # Restaurant Page
 
 ## Live Preview
+https://guidorial.github.io/restaurant-page/
 
 ## General Info
-A restaurant page that we made as a practise for The Odin Project's curriculum
+A restaurant page made by GuidoRial and Wildecity as a practise for The Odin Project's curriculum
 
 ## What we used
   *  HTML
@@ -21,3 +22,5 @@ A restaurant page that we made as a practise for The Odin Project's curriculum
       -  How to add a template.html file to hard-code what needs to be hard-coded
       -  How to route diferent .js files together and bundle them into one
       -  How to manage images
+    *  Git and Github
+      -  How to collaborate with someone
